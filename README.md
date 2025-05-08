@@ -9,7 +9,7 @@ You can install this app using the [bench](https://github.com/frappe/bench) CLI:
 ```bash
 cd $PATH_TO_YOUR_BENCH
 bench get-app https://github.com/anim24/my_custom_app --branch main
-bench install-app my_custom_app
+bench --site $SITE_NAME install-app my_custom_app
 ```
 
 ### Contributing
